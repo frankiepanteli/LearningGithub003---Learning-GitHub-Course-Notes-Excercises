@@ -1,0 +1,454 @@
+Course Title: Learning GitHub
+
+Description: GitHub is the industry-standard tool for collaborating on and sharing code. It’s popular among software developers, project managers, designers, and students for its flexibility and control. This course introduces GitHub and Git, the version control system that GitHub is built upon. Instructor Emanuele Bartolesi shows how GitHub can create collaborative workflows for you and your team. Explore how version control enables you and your team to track the changes in your files, maintain a history of them, and get some advice to work better with open-source projects. Emanuele gives you the knowledge you need to be able to select appropriate projects to be pushed to GitHub, successfully initialize Git on an existing project, navigate the GitHub UI to perform common tasks like branching, commits, and pull requests, and more.
+
+
+***********************************************
+Chapter: 1. The Basics
+***********************************************
+
+
+-----------------------------------------------
+Video: What is Git?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:20            -> source control system -> working on project with group of people 
+
+0:01:00            -> branch -> mod'd version of the old work (source code) 
+
+0:01:07            -> can merge that w/ the new code 
+
+
+-----------------------------------------------
+Video: What is GitHub?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            -> Git is a source code system 
+
+0:00:20            -> GitHub -> where developers work together (cloud) 
+
+0:00:34            -> code from a lot of different people 
+
+0:00:47            -> project managers            
+
+
+-----------------------------------------------
+Video: A lap around GitHub
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:26            -> a repo is a group of files, they're all open source and developers can work on them 
+
+0:00:35            -> a repo for code             
+
+0:00:53            -> source code (versions of it can be changed), documentation (explaining how it works), assets 
+
+0:01:10            -> branches -> times people have taken the source code and edited it -> you don't have to work from scratch, but will have to work on other peoples' code -> best practice 
+
+0:02:09            -> can edit the files on the page (branches) 
+
+0:02:46            -> the issues tab is like a stack exchange discussion of bugs for the project 
+
+0:03:01            -> pull requests -> when you mod the project files 
+
+0:03:31            -> actions -> for automating things 
+
+0:03:46            -> projects -> for project managers 
+
+0:04:17            -> security, more complex      
+
+
+***********************************************
+Chapter: 2. Git from the Command Line
+***********************************************
+
+
+-----------------------------------------------
+Video: Windows terminal
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:32            -> terminal                    
+
+0:00:33            -> terminals for linux shells  
+
+0:00:39            -> command prompts             
+
+0:00:50            -> the point of it is to increase productivity 
+
+0:02:04            -> oh my posh - for terminal   
+
+0:02:16            -> you can link terminal and git 
+
+0:02:28            -> aka, terminal in the computer and git 
+
+
+-----------------------------------------------
+Video: Set up Git locally
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:16            -> git tracks backups of projects 
+
+0:01:11            -> you install git to the terminal 
+
+0:01:44            -> UI user interface           
+
+0:01:57            -> there are different UIs for Git can use 
+
+0:02:08            -> think would rather have it std 
+
+
+-----------------------------------------------
+Video: The first issue
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:16            Homebrew "The name is intended to suggest the idea of building software on the Mac depending on the user's taste" 
+
+0:00:33            -> you can make new repos and own them 
+
+0:01:03            -> readme buttons make documentation file 
+
+0:02:18            -> markdown is text            
+
+0:02:29            -> can add collaborators       
+
+
+-----------------------------------------------
+Video: Create a branch
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:06            People can add questions on the issue 
+
+0:00:32            -> to make a branch -> clone it -> aka, get the code from git onto files on computer using terminal 
+
+0:00:36            -> git clone the https link    
+
+0:00:48            -> cd into the repo in terminal 
+
+0:01:01            -> get the link for the repo -> go into terminal -> git clone [link] 
+
+0:01:03            -> branches are just versions of the code 
+
+0:01:03            -> branches are just versions of the code 
+
+0:01:03            -> branches are just versions of the coed 
+
+0:01:12            -> we have a copy of the code on the computer and on git 
+
+0:01:20            -> git branch --all <- to see all the branches 
+
+0:01:29            -> git branch [insert name of new branch] 
+
+0:01:34            -> what git branch [name] did was create a local branch 
+
+0:01:34            -> local and remote versions of the code 
+
+0:01:37            -> to make a branch -> clone it -> aka, get the code from git onto files on computer using terminal 
+
+0:01:45            git checkout [name] <- to opt into the new branch 
+
+0:01:48            The main ones are git clone [link]; git branch [name] <- to make the branch; git  branch --all <- to see all; git checkout [name] <- to work on the branch 
+
+
+-----------------------------------------------
+Video: The first commit
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:14            Source code -> "a text listing of commands to be compiled or assembled into an executable computer program" 
+
+0:00:20            code . <- to launch vs code    
+
+0:01:07            -> go into the cloned code and change something in the readme file using visual studio code 
+
+0:01:21            git add [FILENAME] <- to add the changed file to a commit 
+
+0:01:53            git add [name], then git --commit 'message' <- message shows when commit the change 
+
+0:02:13            -> you then push the changes from the branch onto GitHub 
+
+
+-----------------------------------------------
+Video: The first pull request
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:15            Pulling in git                 
+
+0:00:36            Collaborating on code          
+
+0:00:50            Creating pull requests -> when collaborating 
+
+0:00:52            You push the changes from the code on your computer to GitHub, then compare those changes on git with the ones from the original code 
+
+0:01:20            It compares the differences between the code you push back to it 
+
+
+-----------------------------------------------
+Video: Review the pull request
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:02            Pull requests -> comparing the code 
+
+0:00:24            Making review of pull requests 
+
+0:01:33            -> merging pull requests -> the changes are merged into another branch and you merge them in git 
+
+
+***********************************************
+Chapter: 3. Working with GitHub Desktop
+***********************************************
+
+
+-----------------------------------------------
+Video: Install GitHub Desktop
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:28            multiple ways of using git -> desktop version/ can use online and terminal 
+
+0:01:03            Github desktop can be less stable, needs authenticating  
+
+
+-----------------------------------------------
+Video: Getting the project with GitHub Desktop
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:51            Clone -> aka copy              
+
+
+-----------------------------------------------
+Video: Create a branch and commit changes
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            Branches are like edits to the code 
+
+0:00:19            Remote branch -> ones on git   
+
+0:00:48            Github is like google drive but for code 
+
+0:01:12            Command, shift N <- new branch 
+
+0:01:21            Branches and master branches   
+
+0:02:01            Sync the new branch as you go along or you could loose your work 
+
+
+-----------------------------------------------
+Video: Create a pull request
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:40            From the git desktop application, you can create changes and commit them 
+
+0:01:34            Add reasons for changes to code 
+
+
+***********************************************
+Chapter: 4. Working with GitHub Command-Line Interface
+***********************************************
+
+
+-----------------------------------------------
+Video: Install the GitHub command-line interface
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:39            GitHub CLI -> GitHub common line interface 
+
+0:00:48            This is the third introduced method of committing changes to code. 1. Terminal, 2. GitHub Desktop, 3. GitHub command-line interface, CLI 
+
+
+-----------------------------------------------
+Video: Start your project with GitHub CLI
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            To connect with GitHub CLI, requires authentication using terminal 
+
+0:00:25            ch repo create <- to create a repo via git CLI 
+
+0:01:55            alt. you can just gh repo create LinkedIn-learning --private --clone 
+
+0:02:40            -- = options, there are different ones for creating repos in git cli 
+
+
+***********************************************
+Chapter: 5. GitHub Copilot
+***********************************************
+
+
+-----------------------------------------------
+Video: What is GitHub Copilot?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:29            GitHub copilot -> AI to aid in writing sections of code 
+
+0:00:57            It provides suggestions based on the code -> git and open AI collaboration 
+
+0:01:18            GPT-3 <- Generative pre-trained transformer 3 (version 3) 
+
+0:01:46            they trained AI models on existing git code to produce suggestions 
+
+0:01:47            Co-pilot is subscription service 
+
+0:02:05            Collaborative/ open source     
+
+0:02:22            Visual studio code can be used with copilot -> VS code is software commonly used to edit the code 
+
+0:03:50            Copilot suggests code          
+
+
+-----------------------------------------------
+Video: Write code with an AI pair programmer
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            It's suggesting code as types comments (in example python file, #) 
+
+0:01:12            The aim is to use as much suggested code as you can to avoid typing it -> increase in efficiency 
+
+
+***********************************************
+Chapter: 6. Deploying Websites with Git and GitHub
+***********************************************
+
+
+-----------------------------------------------
+Video: What are GitHub Pages?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:17            Static website                 
+
+0:00:17            GitHub pages -> to publish a website on git 
+
+0:00:24            You can do it by creating html files in a repo and enabling pages in the repo settings 
+
+0:01:24            You can find a list of website examples using git pages -> and can change the domain name using it 
+
+0:01:55            On the git website, you can add files (on the code page) 
+
+0:03:48            Create an html file by writing it (adding it as a file) in a new repo, next change settings on pages -> and the branch, then you can see the website created in the actions tab 
+
+
+-----------------------------------------------
+Video: Publish your first website to GitHub Pages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:41            -> GitHub pages (previous video), this one is Gatsby which is a static site generator 
+
+0:00:47            -> Gatsby template repo        
+
+0:01:29            -> create a repo from the Gatsby template, change the code then commit it 
+
+0:01:54            -> change course to GitHub actions in the settings 
+
+0:02:06            -> can configure it to see the code 
+
+0:02:19            -> make template, rename it, change settings to GitHub actions (source), and can configure the code 
+
+
+***********************************************
+Chapter: 7. Deploy to the Cloud
+***********************************************
+
+
+-----------------------------------------------
+Video: What are GitHub Actions?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:21            -> the workflow is optimised to spend less money automating it so it takes less time to run 
+
+0:00:26            -> automating workflows in GitHub action (build/ test/ deploy) 
+
+0:00:40            -> most languages are supported 
+
+0:01:19            -> you can store them in your private accounts / private repos are paid and public ones aren't 
+
+0:01:29            -> benefits -> multiple languages, user interface, can use your own 'secrets' in it (make the entire thing private) 
+
+
+-----------------------------------------------
+Video: Create the first GitHub Actions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            -> open repo, actions tab, new workflow, scroll down to templates, automation templates, greetings template (yml file type, the name is formatted in a specific way, it shows the message which is given to the user/ when pulls etc happen), start commit 
+
+0:00:38            -> interacts with users about the issues of the project, in this example 
+
+
+-----------------------------------------------
+Video: Deploy a static website to Azure
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:50            -> deploying a static website using Azure as a host provider, azure static web apps is free forever 
+
+0:01:06            -> continuous integrations and and continuous delivery -> automations 
+
+0:04:20            Steps: use template repo called gatsby-starter-default, create a repo from it. In Azure: create source, search static web app, create, new resource group (name it), choose where to deploy website (W Europe), organisation (GitHub account name), choose repo, master branch, gatsby in build details (it's creating an action to deploy the gatsby website), create it. Back in git: there is a new yml file in a folder githubworkflows, in the actions tab can see the deployment taking place 
+
+
+***********************************************
+Chapter: 8. Working with Codespaces
+***********************************************
+
+
+-----------------------------------------------
+Video: Start your project with GitHub Codespaces
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            GitHub codespaces -> cloud development, can work from visual studio code, config files 
+
+0:00:13            CLI can also be used for it    
+
+0:00:23            -> nobody else can work in your codespace 
+
+0:00:26            Code spaces -> for specific branches of repos 
+
+0:00:33            -> there can be multiple codespaces per branch 
+
+0:00:44            1. VM, storage assigned to codespace 2. container Is created, repo is cloned 3. can coordinate to codespace 4 . post creation 
+
+0:01:37            -> in a repo, code -> codespaces branch 
+
+0:01:52            -> this is working in the cloud environment 
+
+0:02:05            -> creating a react app        
+
+0:02:15            -> it's like a terminal -> in linux 
+
+0:02:37            -> npc create-react-app my-app 
+
+0:02:41            cd my-app                      
+
+0:02:47            npm start -> application runs  
+
+
+-----------------------------------------------
+Video: Connect to Codespaces from Visual Studio Code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:21            -> using visual studio code to connect to codespaces 
+
+0:00:33            -> in codespaces on the git webpage, there's a icon in the top LHS which looks like an equivalent to symbol, can use that to open the code from codespaces into visual studio code on desktop app 
+
+0:01:31            -> once going through this process, you can see 'my_app' which created in codespaces on the website, but in the VS code desktop app 
+
+0:02:04            -> the second way of doing this is using an extension > remote explorer tab in the vs code desktop app > and can see code spaces 
+

@@ -1,4 +1,4 @@
-	◦ This repo was created as part of a cloning exercise for a LinkedIn Learning course called Learning GitHub.
+This repo was created as part of a cloning exercise for a LinkedIn Learning course called Learning GitHub.
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
